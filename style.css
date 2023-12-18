@@ -1,0 +1,337 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    font-size: large;
+    top: 0;
+    height: 10%;
+    /* border: 2px solid white; */
+    padding: 0;
+}
+
+.bro {
+    padding: 55px;
+    background-color: rgba(99, 23, 0, 0.1);
+    margin: 0;
+    font-size: larger;
+    word-spacing: 8px;
+}
+
+#whead {
+    /* color: whitesmoke;
+    background-color: rgba(255, 60, 0, 0.5); */
+    /* text-align: center; */
+    padding-left: 55px;
+    word-spacing: 8px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    height: 100%;
+    margin: 150px 0 0;
+    text-decoration: underline;
+    text-underline-offset: 11px;
+    font-size: 50px;
+}
+
+#nav-bar a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 40px;
+    word-spacing: 5px;
+}
+
+#nav-bar {
+    /* border: 2px solid salmon; */
+    height: 50%;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
+body {
+    margin: 0;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    color: aliceblue;
+    background-color: black;
+    padding: 0;
+    border: 5px solid black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#for-heading {
+    height: 600px;
+    margin: 0;
+    /* height: 100%; */
+    background-image: url("../Wallpapers/Sony-headphone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bot {
+    /* width: 50%; */
+    margin: 0;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: rgba(115, 30, 4, 0.3);
+    width: 60%;
+    height: 90%;
+}
+
+fieldset {
+    border: none;
+    margin: 30px 0;
+}
+
+#form {
+    margin: 100px 0;
+    /* border: 2px solid black; */
+    padding: 0 50px;
+    font-size: larger;
+    color: aliceblue;
+}
+
+.join-us {
+    width: 40%;
+    background-color: rgba(202, 196, 196, 0.3);
+    float: right;
+    height: 90%;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    font-size: large;
+    border: none;
+    background-color: rgb(239, 234, 234);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+form fieldset {
+    text-align: center;
+}
+
+input {
+    width: 70%;
+}
+
+input[type="text"],
+input[type="email"] {
+    /* height: 30px; */
+    padding: 9px;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+input[type="text"]:active,
+input[type="email"]:active {
+    border: none;
+    border-bottom: 2px solid rgb(114, 114, 114);
+    border-left: 2px solid rgb(114, 114, 114);
+    border-right: 2px solid grgb(114, 114, 114);
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+}
+
+form h2 {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.overview-1 h4 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.overview-1 {
+    display: flex;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.overview-1 header {
+    margin: 20px;
+    width: 400px;
+    word-spacing: 5px;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+}
+
+.overview-2 {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    background-image: url("/Wallpapers/c-d-x-PDX_a_82obo-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: auto;
+}
+
+#overview {
+    padding: 0;
+    background-color: ghostwhite;
+    color: black;
+    font-size: large;
+    margin: 0;
+}
+
+.overview-2 header {
+    font-size: larger;
+    margin-bottom: 30px;
+}
+
+.overview-2 .left-box {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    width: 300px;
+    margin: 100px 100px;
+    height: 280px;
+}
+
+.overview-2 p {
+    word-spacing: 3px;
+    font-size: large;
+}
+
+.overview-3 {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    height: 400px;
+}
+
+.color-choice {
+    margin: 80px 30px;
+    width: 40%;
+    float: right;
+}
+
+.pro-ph {
+    width: 50%;
+}
+
+.right {
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 44%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.overview-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operations-overview {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 40%;
+}
+
+.operations-overview p {
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+}
+
+.operations-overview div {
+    width: 50%;
+}
+
+.img-buttons img {
+    margin-top: 91px;
+    margin-left: 51px;
+}
+
+#saf {
+    background-color: ghostwhite;
+    color: black;
+    margin: 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    word-spacing: 5px;
+    padding: 50px;
+}
+
+#saf hr {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+#saf p {
+    margin-top: 42px;
+}
+
+#saf ul {
+    list-style: none;
+    width: 49%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#saf ul li {
+    margin: 25px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 8px;
+}
+
+#support a {
+    color: aliceblue;
+}
+
+#support {
+    background-color: black;
+    padding: 50px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    color: aliceblue;
+}
+
+#slinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#slinks ul li {
+    margin: 21px auto;
+}
+
+h2,
+h1,
+h3 {
+    text-transform: uppercase;
+    word-spacing: 6px;
+}
+
+#slinks ul {
+    list-style: none;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#support hr {
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+}
